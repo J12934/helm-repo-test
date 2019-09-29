@@ -3,20 +3,20 @@ entries:
   foobar:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2019-09-29T15:40:53.459252019Z"
+    created: "2019-09-29T15:51:58.317233895Z"
     description: A Helm chart for Kubernetes
-    digest: 4e01fd976ffba062da9d3fc1a1e50d15e8573eb04dc9c88bbd371ecff7604a1c
+    digest: 8bddb2619d39a6751d8d9bc63431812954c15f710cd35d748e19e54473eb7707
     name: foobar
     urls:
     - foobar-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2019-09-29T15:40:53.458638514Z"
+    created: "2019-09-29T15:51:58.31688487Z"
     description: A Helm chart for Kubernetes
     digest: 3b388359e2e8fbc90a747eb81ca2226563635e7216f42c704559ae23d6f1a1e2
     name: foobar
     urls:
     - foobar-0.1.0.tgz
     version: 0.1.0
-generated: "2019-09-29T15:40:53.45807321Z"
+generated: "2019-09-29T15:51:58.316295027Z"
