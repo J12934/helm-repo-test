@@ -13,4 +13,5 @@ jobs:
       uses: J12934/helm-gh-pages-action@57f3392006624d806f98c77380a189afea394b1e
       with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
+          deploy-branch: gh-pages
 
