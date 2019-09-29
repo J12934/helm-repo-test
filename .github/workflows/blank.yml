@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Publish Helm Charts
-      uses: J12934/helm-gh-pages-action@b9c6e120364145908fcb6d7767ae656e694cc4f4
+      uses: J12934/helm-gh-pages-action@94bb87b10057eae4b9515bf9c8e59c80a9f2c868
       with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: gh-pages
