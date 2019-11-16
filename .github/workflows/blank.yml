@@ -4,14 +4,11 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-    
     steps:
-    - uses: actions/checkout@v1
-    - name: Publish Helm Charts
-      uses: J12934/helm-gh-pages-action@v0.1.0
-      with:
+      - uses: actions/checkout@v1
+      - name: Publish Helm Charts
+        uses: zx1986/helm-gh-pages-action@master
+        with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: gh-pages
-
