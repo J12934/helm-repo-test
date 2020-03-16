@@ -12,3 +12,11 @@ jobs:
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: gh-pages
+  sixteen:
+    runs-on: ubuntu-16.04
+    steps:
+      - run: helm version
+  eighteen:
+    runs-on: ubuntu-18.04
+    steps:
+      - run: helm version
